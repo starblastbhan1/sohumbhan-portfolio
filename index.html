@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Robotics Portfolio</title>
+    <title>Sohum Bhan - Robotics Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -307,9 +307,9 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Robotics Engineer & Developer</p>
-        <p class="tagline">Building intelligent systems and autonomous solutions</p>
+        <h1>Sohum Bhan</h1>
+        <p>Robotics Portflio</p>
+       <!-- <p class="tagline">Building intelligent systems and autonomous solutions</p> -->
     </header>
 
     <nav>
@@ -325,8 +325,8 @@
         <section id="about">
             <h2>About Me</h2>
             <div class="intro">
-                <p>I'm a robotics engineer passionate about developing autonomous systems and intelligent machines. My work focuses on combining mechanical design, embedded systems, and software to create practical robotic solutions.</p>
-                <p>With experience in both hardware and software development, I enjoy tackling complex problems that bridge the physical and digital worlds. I'm constantly exploring new technologies in computer vision, motion planning, and machine learning to push the boundaries of what robots can do.</p>
+                <p>I am a junior studying Computer Engineering at UIUC. I have taken courses in AI, robotics, autonomous systems, control systems, and signal processing. I am interested in gaining experience in embedded systems, computing, robotics, automotive systems, and AI/ML. </p>
+                <p>My interest is in gaining experience in embedded space, computing, robotics, automotive systems, and AI/ML. The courses and projects that I have worked on focus on these areas. I am looking for opportunities to delve into more complex systems, especially with systems that interact with external environments while integrating compute, connectivity, and sensing, and intelligence.</p>
             </div>
         </section>
 
@@ -336,17 +336,17 @@
                 <div class="project-card">
                     <div class="project-image"></div>
                     <div class="project-content">
-                        <h3>Autonomous Navigation Robot</h3>
+                        <h3>Robotic Hand Version 1.0</h3>
                         <div class="project-tech">
-                            <span class="tech-badge">ROS2</span>
                             <span class="tech-badge">Python</span>
-                            <span class="tech-badge">SLAM</span>
-                            <span class="tech-badge">LiDAR</span>
+                            <span class="tech-badge">Raspberry PI</span>
+                            <span class="tech-badge">3D Printing</span>
+                            <span class="tech-badge">CAD</span>                          
                         </div>
-                        <p>Developed a mobile robot capable of autonomous navigation in indoor environments using ROS2. Implemented SLAM algorithms for mapping and localization, with obstacle avoidance using sensor fusion.</p>
+                        <p>The focus of this project was to actuate fingers on a robotic hand to follow motion movements. The fingers were designed in CAD software, 3D-printed, and connected to motors. The motors were controlled by a glove with sensors, allowing the robotic hand to mimic the movements of the hand inside the glove. The connectivity between the sensors and the motors was done in Python on a Raspberry PI.</p>
                         <div class="project-links">
-                            <a href="#" class="btn">Demo Video</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+                            <!--<a href="#" class="btn">Demo Video</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a> -->
                         </div>
                     </div>
                 </div>
@@ -354,53 +354,56 @@
                 <div class="project-card">
                     <div class="project-image"></div>
                     <div class="project-content">
-                        <h3>Computer Vision Pick & Place</h3>
+                        <h3>Robotic Hand Version 2.0</h3>
                         <div class="project-tech">
-                            <span class="tech-badge">OpenCV</span>
-                            <span class="tech-badge">TensorFlow</span>
-                            <span class="tech-badge">Arduino</span>
-                            <span class="tech-badge">Servos</span>
-                        </div>
-                        <p>Built a robotic arm with object detection and classification using computer vision. The system identifies objects, calculates their position, and autonomously picks and places them in designated locations.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn">Demo Video</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-content">
-                        <h3>Quadruped Walking Robot</h3>
-                        <div class="project-tech">
-                            <span class="tech-badge">C++</span>
-                            <span class="tech-badge">Kinematics</span>
+                            <span class="tech-badge">Electronic Circuit</span>
+                            <span class="tech-badge">FSM</span>
                             <span class="tech-badge">IMU</span>
                             <span class="tech-badge">3D Printing</span>
                         </div>
-                        <p>Designed and built a four-legged robot with dynamic gait generation. Implemented inverse kinematics for leg control and used IMU data for balance compensation on uneven terrain.</p>
+                        <p>The focus of this project is to make a robotic hand entirely in hardware. To control the behavior of the hand, I used electronic circuits. I created a variable PWM generation circuit that is used to control a servo motor, which adjusts the finger position. I used a series of state machines to create a number of presets for the hand, that could be quickly switched to or altered.</p>
                         <div class="project-links">
-                            <a href="#" class="btn">Demo Video</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+                           <!-- <a href="#" class="btn">Demo Video</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a> -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Computer Vision Pick & Place with Kinematics</h3>
+                        <div class="project-tech">
+                            <span class="tech-badge">OpenCV</span>
+                            <span class="tech-badge">6 DOF</span>
+                            <span class="tech-badge">ROS</span>
+                            <span class="tech-badge">Kinematics</span>
+                            
+                        </div>
+                        <p>Created a forward and inverse kinematic model for a 6 DOF robotic arm. Used OpenCV to design a color sorting algorithm that picks up blocks and places them in groups by color using the kinematics models, with feedback and correction for errors like dropped blocks.</p>
+                        <div class="project-links">
+                           <!-- <a href="#" class="btn">Demo Video</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a> -->
                         </div>
                     </div>
                 </div>
 
+                
+
                 <div class="project-card">
                     <div class="project-image"></div>
                     <div class="project-content">
-                        <h3>Swarm Robotics Simulation</h3>
+                        <h3>Drone Controller for path following</h3>
                         <div class="project-tech">
                             <span class="tech-badge">Python</span>
-                            <span class="tech-badge">Multi-Agent</span>
-                            <span class="tech-badge">Gazebo</span>
+                            <span class="tech-badge">PID</span>
+                            <span class="tech-badge">OpenCV</span>
                             <span class="tech-badge">ROS</span>
                         </div>
-                        <p>Created a simulation environment for coordinating multiple robots using swarm intelligence algorithms. Robots communicate and collaborate to complete tasks like area coverage and formation control.</p>
+                        <p>This project involved creating a controller for a drone to follow a predefined path, correcting for deviations from it, and avoiding obstacles during travel. The PID controller used a state-based design, focusing on low overshoot and minimal steady-state error. The vision controller combined a neural network and color masking to detect obstacles within a frame, using the color masking for high-framerate pose estimation and the neural network for slower but more accurate analysis. These two controllers are combined and assigned various intensities based on what is needed at the time.</p>
                         <div class="project-links">
-                            <a href="#" class="btn">Demo Video</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+                           <!-- <a href="#" class="btn">Demo Video</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a> -->
                         </div>
                     </div>
                 </div>
